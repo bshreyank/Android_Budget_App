@@ -15,25 +15,35 @@
 
         <LinearLayout
             android:id="@+id/balance_layout"
-            android:layout_width="match_parent"
+            android:layout_width="398dp"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="18dp">
+            android:layout_marginTop="18dp"
+            android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Total Balance"
                 android:textAllCaps="true"
-                android:textStyle="bold"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_sbi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SBI"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/balance"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="$300"
                 android:textSize="32sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
         </LinearLayout>
 
         <com.google.android.material.card.MaterialCardView
